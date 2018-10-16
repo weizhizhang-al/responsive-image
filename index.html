@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Page Title</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+</head>
+
+<body>
+    <div class="size">Width:</div>
+    <div class="wrapper">
+        <h1>Responsive Images!</h1>
+        <ul>
+            <li>
+                <h2>Grabbing photos by url</h2>
+                <figure>
+                    <picture>
+                        <source srcset="https://picsum.photos/1500" media="(min-width: 1200px)" />
+                        <source srcset="https://picsum.photos/1200" media="min-width:900px" />
+                        <source srcset="https://picsum.photos/900" media="(min-width: 500px)" />
+
+                        <img src="https://picsum.photos/g/400" alt="Picture of somthing from internet"/>
+
+                    </picture>
+                    <figcaption>A really coll photo!</figcaption>
+
+                </figure>
+            </li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>
